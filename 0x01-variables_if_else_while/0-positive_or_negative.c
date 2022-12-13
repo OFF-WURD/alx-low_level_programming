@@ -2,13 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-*headers goes here
-*
 * main: Entry point
 *
-*Description: Display the type of n (positive, zero, negative)
+* Description: Display the type of n (positive, zero, negative)
 *
-*Return: 0 always(success)
+* Return: 0 always(success)
 */
 int main(void)
 {
