@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-* main: Entry point
+* main - Entry point
 *
 * Description: Display the type of n (positive, zero, negative)
 *
