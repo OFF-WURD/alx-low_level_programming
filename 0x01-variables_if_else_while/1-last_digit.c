@@ -4,8 +4,7 @@
 /**
 * main - Entry point
 *
-* Description - printing if the last digit of a number is greater than 5 
-		and less than 6 but is not zero
+* Description - printing if the last digit of a number with a condition
 *
 * Return: always 0(Success)
 */
