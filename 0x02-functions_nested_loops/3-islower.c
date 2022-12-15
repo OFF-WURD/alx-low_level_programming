@@ -2,9 +2,9 @@
 /**
 *_islower - check if an alphabet is in lowercase
 *
-*@c - any letter pass in for check
+*parameter or member 'c' - any letter pass in for check
 *
-* Return- 0 always (success);
+*return value of '_islower' - 0 (uppercase) 1(lowercase);
 */
 int _islower(int c)
 {
