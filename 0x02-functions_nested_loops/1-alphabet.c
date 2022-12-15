@@ -7,9 +7,8 @@
 * Return - 0 always (Success)
 */
 
-int main(void)
+void print_alpahbet(void)
 {
-	void print_alpahbet(void)
 	char ch = 'a';
 	
 	while (ch <= 'z')
