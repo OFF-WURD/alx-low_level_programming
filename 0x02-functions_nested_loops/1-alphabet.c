@@ -7,7 +7,7 @@
 * Return - 0 always (Success)
 */
 
-void print_alpahbet(void)
+void print_alphabet(void)
 {
 	char ch = 'a';
 	
