@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	void str[] = "Print_alphabet";
+	char str[] = "Print_alphabet";
 	int ch;
 
 	for (ch = 'a'; ch < 'z'; ++ch)
