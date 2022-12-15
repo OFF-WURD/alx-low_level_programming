@@ -1,10 +1,8 @@
 #include "main.h"
 /**
-*function_islower - check if an alphabet is in lowercase
+*_islower - check if an alphabet is in lowercase
 *
-*c - any value pass in for check
-*
-*value of '_islower'
+*@c - any letter pass in for check
 *
 * Return- 0 always (success);
 */
