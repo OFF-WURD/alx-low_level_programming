@@ -1,12 +1,17 @@
 #include "main.h"
 /**
-*d
+* _isalpha - check the code if it is an alphabet.
 *
+* @c: is c an alphabet argument
+*
+* Return: Always 0.
 */
 int _isalpha(int c)
 {
-  if ( c >= 65 (&&) c <= 90 (||) c >= 97 (&&) c <= 122)
+  if ( c >= 65  && c <= 90)
       return (1);
+  else if (c >= 97 && c <= 122)
+    return (1);
   else
       return (0);
 }
