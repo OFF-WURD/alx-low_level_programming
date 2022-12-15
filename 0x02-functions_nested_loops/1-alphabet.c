@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
 *main - Entry point
 *
@@ -18,5 +18,4 @@ void print_alpahbet(void)
 	}
 	_putchar('\n');
 
-	return (0);
 }
