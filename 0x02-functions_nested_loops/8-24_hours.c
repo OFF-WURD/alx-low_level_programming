@@ -1,12 +1,8 @@
 #include "main.h"
 /**                                                                                                                                                    
-
 * jack_bauer - it print time from 0 to 23:59                                                                                                           
-
 *                                                                                                                                                      
-
 * Return : 0 always (success)                                                                                                                          
-
 */ 
 void jack_bauer(void)
 {
@@ -15,8 +11,14 @@ void jack_bauer(void)
 
 	while (j < 24)
 	{
-		while (i < 0)
+		while (i < 60)
 		{
-			_putchar((i / 60) + '0');
+			_putchar((i / 10) + '0');
 			_putchar(':');
-			_putchar(
+			_putchar(( i % 10) + '0');
+			_putchar('\n');
+			++i;
+		}
+		++j;
+	}
+return (0);
