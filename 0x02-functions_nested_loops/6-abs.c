@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* abs: it return the absolute value of a number
-*
-* n: number to be tested
+* _abs - it return the absolute value of a number
+* @n: integer to be tested
+* Return: void.
 */
 int _abs(int n)
 {
