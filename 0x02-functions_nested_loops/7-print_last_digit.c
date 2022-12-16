@@ -18,6 +18,6 @@ j = n % 10;
 	{
 		j = -j;
 	}
-_puchar(j + '0')
+_putchar(j + '0')
 return (j);
 }
