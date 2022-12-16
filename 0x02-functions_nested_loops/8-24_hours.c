@@ -1,13 +1,14 @@
 #include "main.h"
-/**                                                                                                                                                    
-* jack_bauer - it print time from 0 to 23:59                                                                                                           
-*                                                                                                                                                      
-* Return : 0 always (success)                                                                                                                          
-*/ 
+/**
+* jack_bauer - it print time from 0 to 23:59
+*
+* Return : 0 always (success)
+*/
+
 void jack_bauer(void)
 {
 int j, i;
-  
+ 
 j = 0;
 while (j < 24)
 {
@@ -25,3 +26,7 @@ _putchar('\n');
 ++j;
 }
 }
+/**
+* it work by dividing the value of
+* j, i and taking their modulus using putchae
+*/
