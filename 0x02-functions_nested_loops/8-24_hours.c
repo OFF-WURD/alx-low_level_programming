@@ -8,7 +8,7 @@
 void jack_bauer(void)
 {
 int j, i;
- 
+
 j = 0;
 while (j < 24)
 {
@@ -19,14 +19,12 @@ _putchar((j / 10) + '0');
 _putchar((j % 10) + '0');
 _putchar(':');
 _putchar((i / 10) + '0');
-_putchar(( i % 10) + '0');
+_putchar((i % 10) + '0');
 _putchar('\n');
 ++i;			
 }
 ++j;
 }
 }
-/**
-* it work by dividing the value of
-* j, i and taking their modulus using putchae
-*/
+/* it work by dividing the value of *\
+/* j, i and taking their modulus using putchae *\
