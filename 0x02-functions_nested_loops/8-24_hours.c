@@ -6,22 +6,21 @@
 */ 
 void jack_bauer(void)
 {
-	int j = 0;
-	int i = 0;
+int j = 0;
+int i = 0;
 
-	while (j < 24)
-	{
-		while (i < 60)
-		{
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
-			_putchar(':');
-			_putchar((i / 10) + '0');
-			_putchar(( i % 10) + '0');
-			_putchar('\n');
-			++i;
-			
-		}
-		++j;
-	}
+while (j < 24)
+{
+while (i < 60)
+{
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
+_putchar(':');
+_putchar((i / 10) + '0');
+_putchar(( i % 10) + '0');
+_putchar('\n');
+++i;			
+}
+++j;
+}
 }
