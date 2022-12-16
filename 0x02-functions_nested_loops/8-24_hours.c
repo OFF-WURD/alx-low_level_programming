@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * jack_bauer - it print time from 0 to 23:59
-*
+* it work by dividing the value of 
+* j, i and taking their modulus using putchae
 * Return : 0 always (success)
 */
 
@@ -26,5 +27,3 @@ _putchar('\n');
 ++j;
 }
 }
-/* it work by dividing the value of *\
-/* j, i and taking their modulus using putchae *\
