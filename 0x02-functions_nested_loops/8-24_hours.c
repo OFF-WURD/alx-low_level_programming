@@ -6,11 +6,12 @@
 */ 
 void jack_bauer(void)
 {
-int j = 0;
-int i = 0;
-
+int j, i;
+  
+j = 0;
 while (j < 24)
 {
+i = 0;
 while (i < 60)
 {
 _putchar((j / 10) + '0');
