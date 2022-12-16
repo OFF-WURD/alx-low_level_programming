@@ -17,7 +17,6 @@ int print_last_digit(int n)
 	if (j < 0)
 	{
 		j = -j;
+		return (j);
 	}
-
-return (j);
 }
