@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-*98 - print any number and end it with 98
+* print_to_98 - print all natural number and end it with 98
+* follow by a new line
+* @n: int to return
 */
 void print_to_98(int n)
 {
@@ -14,9 +16,24 @@ if (i != 98)
 {
 printf("%d,\n", i);
 }
-else if ( i == 98)
+else if (i == 98)
 {
-printf("%d, \n", i);
+printf("%d,\n", i);
 }
 }
 }
+else if (n >= 98)  
+{
+for (j = n; j >= 98; --j)
+{
+if (j != 98)
+{
+print("%d,\n", i);
+}
+else if (j == 98)
+{
+print("%d,\n", j);
+}
+}
+}
+} 
