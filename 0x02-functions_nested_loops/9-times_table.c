@@ -12,11 +12,11 @@ for (a = 0; a < 10; a++)
 for (b = 0; a < 10; b++)
 {
 c = b * a;
-if (b == 0)
+if (a == 0)
 {
 _putchar( c + '0');
 }
-if ( c < 10 && b != 0)
+if ( c < 10 && a != 0)
 {
  _putchar(',');
  _putchar(' ');
