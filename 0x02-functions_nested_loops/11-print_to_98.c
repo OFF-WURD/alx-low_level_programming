@@ -28,11 +28,11 @@ for (j = n; j >= 98; --j)
 {
 if (j != 98)
 {
-print("%d,\n", i);
+printf("%d,\n", i);
 }
 else if (j == 98)
 {
-print("%d,\n", j);
+printf("%d,\n", j);
 }
 }
 }
